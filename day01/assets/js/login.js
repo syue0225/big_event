@@ -31,7 +31,7 @@ $(function () {
     }
   })
 
-  // 监听注册表单的提交是一件
+  // 监听注册表单的提交事件
   $('#form_reg').on('submit', function (e) {
     // 1.阻止默认行为
     e.preventDefault();
