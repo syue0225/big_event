@@ -67,7 +67,7 @@ $(function () {
         // 将登录成功的token字符串保存到locakStorage中
         localStorage.setItem('token', res.token)
         // 跳转到后台主页
-        location.href = '/index.htm'
+        location.href = 'index.htm'
       }
     })
   })
